@@ -11,31 +11,31 @@ public:
     void loop();
 
 private:
-    const int start_button = 0;
+    const int start_button = 4;
 
-    const int grabber_1 = 2;
-    const int grabber_2 = 1;
-    const int EN_Grabber = 3;
+    const int grabber_1 = 6;
+    const int grabber_2 = 5;
+    const int EN_Grabber = 7;
 
-    const int motor1_1 = 6;
-    const int motor1_2  = 7;
-    const int EN_1 = 10;
+    const int motor1_1 = 17;
+    const int motor1_2  = 18;
+    const int EN_1 = 9;
 
-    const int motor2_1 = 5;
-    const int motor2_2  = 4;
-    const int EN_2 = 11;
+    const int motor2_1 = 16;
+    const int motor2_2  = 15;
+    const int EN_2 = 10;
 
     const int switch_1 = 8;
-    const int switch_2 = 9;
-    const int switch_3 = 12;
-    const int switch_4 = 13;
+    const int switch_2 = 3;
+    const int switch_3 = 11;
+    const int switch_4 = 12;
 
-    const int left = A3;
-    const int right = A2;
-    const int back = A1;
-    const int forth = A0;
-    const int up = A5;
-    const int down = A4;
+    const int left = 40;
+    const int right = 39;
+    const int back = 38;
+    const int forth = 37;
+    const int up = 42;
+    const int down = 41;
 
 
     // Game Variables
